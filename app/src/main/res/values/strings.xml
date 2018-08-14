@@ -1,0 +1,82 @@
+<resources>
+    <string name="app_name">Airport Fire Fighter</string>
+    <string name="app_name1">Type Aircraft</string>
+    <string name="app_name2">Level Foam</string>
+    <string name="app_name3">Detail Foam Meeting Performance</string>
+    <string name="button_src">Choose Foam Type</string>
+    <string name="button_aircraft">Choose Aircraft Name</string>
+    <string name="toolbar_title">list data</string>
+    <string-array name="MerkAircraft">
+        <item>Aero Commander</item>
+        <item>Airbus</item>
+        <item>Antonov</item>
+        <item>ATR</item>
+        <item>BAe System</item>
+        <item>Beechcraft</item>
+        <item>Boeing</item>
+        <item>Bombardier</item>
+        <item>Britten Norman</item>
+        <item>Cessna</item>
+        <item>Convair</item>
+        <item>Dassault</item>
+        <item>De Havilland</item>
+        <item>Dornier</item>
+        <item>Embraer</item>
+        <item>Fokker</item>
+        <item>Grumman</item>
+        <item>Hawker</item>
+        <item>Ilyushin</item>
+        <item>Let Kunovice</item>
+        <item>Lockheed</item>
+        <item>McDonnell</item>
+        <item>NAMC</item>
+        <item>Piaggio</item>
+        <item>Pilatus</item>
+        <item>Piper PA</item>
+        <item>Raytheon</item>
+        <item>Robin</item>
+        <item>Saab</item>
+        <item>Short Brothers </item>
+        <item>Sukhoi Superjet</item>
+        <item>Tupolev</item>
+        <item>Xi'an</item>
+        <item>Yakovlev</item>
+
+
+    </string-array>
+    <string-array name="FoamType">
+        <item>FOAM LEVEL B </item>
+        <item>FOAM LEVEL C </item>
+    </string-array>
+    <string name="addWater">Additional Water</string>
+    <string name="title_activity_detail">DetailActivity</string>
+    <string name="panjang">Panjang</string>
+    <string name="lebar">Lebar</string>
+    <string name="kategori">Aerodrome Category</string>
+    <string name="PCATCA">Theoretical &amp; Practical Critical Area</string>
+    <string name="PCA">Practical Critical Area (Ap)</string>
+    <string name="satuanm2">m²</string>
+    <string name="satuanm">m</string>
+    <string name="satuanliter">L</string>
+    <string name="satuanperminute">L/min</string>
+    <string name="TCA">Theoretical Critical Area (At)</string>
+    <string name="Q1">The Water For Control PCA (Q1)</string>
+    <string name="satuanmQ1Q2">LPM</string>
+    <string name="Q2">Required After Control (Q2) </string>
+    <string name="DRate">Discharge rate (L/min) </string>
+    <string name="Total">Total Water Required (Q1 + Q2)</string>
+    <string name="Addition">Addition Of Water Requirement</string>
+    <string name="Increase">Increase Discharge Rate</string>
+    <string name="titleAddInc">Addition Water &amp; Increase Discharge Rate</string>
+    <string name="FoamB">FOAM MEETING PERFORMANCE LEVEL B (APPLICATION RATE 5,5 L/min/m²)</string>
+    <string name="FoamC">FOAM MEETING PERFORMANCE LEVEL C (APPLICATION RATE 3,75 L/min/m²)
+</string>
+
+
+    <string name="Notes">Notes</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+</resources>
