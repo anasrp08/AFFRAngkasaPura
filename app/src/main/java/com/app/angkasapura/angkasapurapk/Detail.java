@@ -84,8 +84,7 @@ public class Detail extends AppCompatActivity {
             String Q1val,Q2val,Add,Discharge,Total,Waterval,DischargeRate,DrateVal,Notes1;
 
 
-
-
+            //tes
             tvName.setText(NameType);
             tvKat.setText(cursor.getString(3));
             tvLength.setText(Length);
