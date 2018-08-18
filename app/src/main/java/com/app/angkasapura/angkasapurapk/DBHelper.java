@@ -105,7 +105,7 @@ public class DBHelper extends SQLiteOpenHelper {
                 }
                 android.content.ContentValues cv = new android.content.ContentValues(5);
                 cv.put("NO", colums[0].trim());
-                cv.put("AIRCRAFT", colums[1].trim());
+                cv.put("AIRCRAFT", colums[1]);
                 cv.put("TYPE", colums[2].trim());
                 cv.put("CATEGORY", colums[3].trim());
                 cv.put("LENGTH", colums[4].trim());

@@ -53,7 +53,7 @@ public class ListData extends AppCompatActivity implements AircraftAdapter.Aircr
         RecyclerView.LayoutManager mLayoutManager = new LinearLayoutManager(getApplicationContext());
         recyclerView.setLayoutManager(mLayoutManager);
         recyclerView.setItemAnimator(new DefaultItemAnimator());
-        recyclerView.addItemDecoration(new MyDividerItemDecoration(this, DividerItemDecoration.VERTICAL, 36));
+        recyclerView.addItemDecoration(new MyDividerItemDecoration(this, DividerItemDecoration.VERTICAL, 0));
         recyclerView.setAdapter(mAdapter);
         Intent inten=getIntent();
         fetchContacts(inten);
@@ -65,10 +65,11 @@ public class ListData extends AppCompatActivity implements AircraftAdapter.Aircr
 
         SQLiteDatabase db = dbcenter.getReadableDatabase();
         cursor = db.rawQuery("SELECT * FROM AFF WHERE AIRCRAFT = '"+pSelected+"'",null);
+//        cursor = db.rawQuery("SELECT * FROM AFF WHERE AIRCRAFT = 'Convair 440 – 640'",null);
 
         cursor.moveToFirst();
-        int columnLength=cursor.getColumnCount();
 
+        int columnLength=cursor.getColumnCount();
         System.out.println(cursor.getString(1));
         while (cursor.isAfterLast()==false)
         {

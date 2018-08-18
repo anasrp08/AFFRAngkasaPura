@@ -45,13 +45,14 @@ public class MainActivity extends AppCompatActivity {
                             @Override
                             public void onSelected(BaseSearchDialogCompat dialog,
                                                     SearchModel item, int position) {
+                                Toast.makeText(MainActivity.this, item.getTitle(),
+                                        Toast.LENGTH_SHORT).show();
                                 Intent movePage = new Intent(MainActivity.this, ListData.class);
 
 
                 movePage.putExtra("pAircraft", item.getTitle());
                 startActivity(movePage);
-                                Toast.makeText(MainActivity.this, item.getTitle(),
-                                        Toast.LENGTH_SHORT).show();
+
                                 dialog.dismiss();
                             }
                         }).show();
@@ -75,28 +76,28 @@ public class MainActivity extends AppCompatActivity {
         items.add(new SearchModel("Britten Norman"));
         items.add(new SearchModel("Cessna"));
         items.add(new SearchModel("Convair"));
-        items.add(new SearchModel("Dassault"));
+        items.add(new SearchModel("Dassault Aviation Falcon"));
         items.add(new SearchModel("De Havilland"));
         items.add(new SearchModel("Dornier"));
         items.add(new SearchModel("Embraer"));
-        items.add(new SearchModel("Fokker	"));
-        items.add(new SearchModel("Grumman"));
-        items.add(new SearchModel("Hawker	"));
+        items.add(new SearchModel("Fokker"));
+        items.add(new SearchModel("Gulfstream"));
+        items.add(new SearchModel("Hawker"));
         items.add(new SearchModel("Ilyushin"));
         items.add(new SearchModel("Let Kunovice"));
         items.add(new SearchModel("Lockheed"));
-        items.add(new SearchModel("McDonnell"));
+        items.add(new SearchModel("McDonnell Douglas"));
         items.add(new SearchModel("NAMC"));
         items.add(new SearchModel("Piaggio"));
         items.add(new SearchModel("Pilatus"));
-        items.add(new SearchModel("Piper PA"));
+        items.add(new SearchModel("Piper"));
         items.add(new SearchModel("Raytheon"));
         items.add(new SearchModel("Robin"));
         items.add(new SearchModel("Saab"));
         items.add(new SearchModel("Short Brothers"));
-        items.add(new SearchModel("Sukhoi Superjet"));
+        items.add(new SearchModel("Sukhoi"));
         items.add(new SearchModel("Tupolev"));
-        items.add(new SearchModel("Xi'an"));
+        items.add(new SearchModel("Xi an AIC"));
         items.add(new SearchModel("Yakovlev"));
 
         return items;
